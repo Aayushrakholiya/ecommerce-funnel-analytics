@@ -1,0 +1,33 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+
+# OS and temporary files
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
+*.bak
+*.pbix.autosave
+
+# Generated chart copies (original examples remain under images/)
+charts/
+
+# Empty author placeholders
+test.txt
+test.png
+test.py
+test.sql
+test
